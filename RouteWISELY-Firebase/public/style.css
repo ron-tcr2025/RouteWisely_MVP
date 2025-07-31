@@ -1,0 +1,36 @@
+/* Fullscreen layout */
+html, body, #map {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Recenter (GPS) Button */
+#locBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  background: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  width: 44px;
+  height: 44px;
+  font-size: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  line-height: 1;
+}
+
+/* RouteWISELY™ Logo */
+#logo {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  width: 48px;
+  height: auto;
+  z-index: 1000;
+  opacity: 0.85;
+}
+
